@@ -1,0 +1,63 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem 0.5rem;
+}
+.footer-container1{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    text-align: start;
+}
+.footer-container1 p{
+    font-size: 0.9rem;
+    font-family: sans-serif;
+}
+.inpt{
+    width: 20rem;
+}
+.social{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+.facebook{
+    color: rgb(45, 45, 202);
+}
+.twitter{
+    color: skyblue;
+}
+.google{
+    color: red;
+}
+.insta{
+    color: rgb(215, 93, 49);
+}
+
+
+hr{
+    width: 90%;
+}
+
+
+.footer-container2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30rem;
+}
+.footer-container2 p{
+    font-size: 0.9rem;
+}
+.payment-methods{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}

@@ -1,0 +1,10 @@
+.Icons{
+    font-size: 1.5rem;
+    color: orange;
+}
+.product-card-title{
+    color: black;
+}
+.product-card-title:hover{
+    color: rgb(33, 33, 201);
+}

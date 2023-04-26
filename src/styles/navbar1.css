@@ -1,0 +1,118 @@
+.nav1-container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: rgb(2,35,53);
+    padding: 1rem 0;
+}
+.nav1-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    font-size: 2rem;
+    color: white;
+}
+.inp{
+    width: 30rem;
+}
+.details p{
+    margin: 0;
+    padding: 0;
+    font-weight: 450;
+    color: white;
+    font-size: 0.8rem;
+    text-align: start;
+}
+.details p:hover{
+    color: rgb(221,36,0);
+}
+
+
+.ant-input-search-button{
+    background-color: rgb(221,36,0);
+}
+.ant-input-search-button:hover{
+    background-color: rgb(221,36,0) !important;
+}
+.ant-input{
+    border-radius: none !important;
+    width: 15rem !important;
+}
+.ant-input-group, .ant-input:first-child{
+    border-start-start-radius:0 ;
+    border-end-start-radius:0 ;
+}
+.ant-select-selector{
+    border-radius: 0.5 !important;
+    height: 2.4rem !important;
+    background-color: white !important;
+}
+.badge:hover{
+    color: rgb(221,36,0);
+}
+
+.cart-modal{
+    border-radius: 0.5rem;
+    border: none !important;
+}
+.user{
+    cursor: pointer;
+}
+
+.login-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.user-name{
+    width: 43%;
+}
+.password{
+    width: 100%;
+}
+.register-name{
+    width: 43%;
+}
+
+.cart-Container{
+    height: 22rem;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.show
+{
+    position: fixed;
+    top : 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: rgb(2,35,53);
+    padding: 1rem 0;
+    z-index: 1;
+    animation: showdelay 1s ease-in-out;
+}
+
+@keyframes showdelay {
+    0%
+    {
+        position: fixed;
+        top: -50px;
+    }
+    100%
+    {
+        position: fixed;
+        top: 0px;
+    }
+}
+

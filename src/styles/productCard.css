@@ -1,0 +1,35 @@
+
+.product-card{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    gap: 0.5rem;
+    padding: 1rem;
+}
+.product-card:hover{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}
+.product-card-img{
+    width: 10rem;
+}
+.product-card-title{
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    padding-top: 0.5rem;
+}
+hr{
+    width: 80%;
+}
+.product-icons{
+    display: flex;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;   
+}
+.addToCArt{
+    padding: 0.3rem 3rem;
+}
+

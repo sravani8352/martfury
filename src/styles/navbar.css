@@ -1,0 +1,38 @@
+.nav-container{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(2,35,53);
+    color: white;
+    font-size: 0.8rem;
+}
+.nav-left{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 5rem;
+}
+.nav-right{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.nav-right p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid white;
+    padding: 0 1rem;
+}
+.drop{
+    border: none !important;
+    background-color: transparent;
+    color: white;
+}
+.nav-right p:hover{
+    color: rgb(8, 126, 244);
+}
